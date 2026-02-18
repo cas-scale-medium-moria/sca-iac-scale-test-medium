@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-409-308
+spec:
+  ports:
+  - port: 80
+  selector:
+    app: app-308

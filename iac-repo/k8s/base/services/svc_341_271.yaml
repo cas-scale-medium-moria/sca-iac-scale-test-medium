@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-341-271
+spec:
+  ports:
+  - port: 80
+  selector:
+    app: app-271

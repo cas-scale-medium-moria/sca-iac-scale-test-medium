@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-403
+spec:
+  selector:
+    matchLabels:
+      app: app-403
+  template:
+    metadata:
+      labels:
+        app: app-403
+    spec:
+      containers:
+      - image: nginx
+        name: nginx

@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-120-344
+spec:
+  ports:
+  - port: 80
+  selector:
+    app: app-344

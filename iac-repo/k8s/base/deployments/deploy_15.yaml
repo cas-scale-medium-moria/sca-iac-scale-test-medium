@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-14
+spec:
+  selector:
+    matchLabels:
+      app: app-14
+  template:
+    metadata:
+      labels:
+        app: app-14
+    spec:
+      containers:
+      - image: nginx
+        name: nginx

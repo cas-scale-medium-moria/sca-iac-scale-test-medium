@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-107-349
+spec:
+  ports:
+  - port: 80
+  selector:
+    app: app-349

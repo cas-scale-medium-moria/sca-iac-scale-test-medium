@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-365-146
+spec:
+  ports:
+  - port: 80
+  selector:
+    app: app-146

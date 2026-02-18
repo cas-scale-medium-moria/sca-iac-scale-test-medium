@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-372
+spec:
+  selector:
+    matchLabels:
+      app: app-372
+  template:
+    metadata:
+      labels:
+        app: app-372
+    spec:
+      containers:
+      - image: nginx
+        name: nginx

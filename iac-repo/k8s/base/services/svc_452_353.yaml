@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-452-353
+spec:
+  ports:
+  - port: 80
+  selector:
+    app: app-353
